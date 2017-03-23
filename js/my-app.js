@@ -18,6 +18,16 @@ myApp.onPageInit('about', function (page) {
     });
 });
 
+// *****************************AFFICHAGE DE VARIABLE gLOBAL *************************************************************//
+var testName =true ;
+var carName = "GLOBAL VARIABLE";
+if(testName = true) {
+
+    document.getElementById("demo").innerHTML =
+    "I can display!!!!!!!!!!!!!!!! " + carName;
+}
+
+// ******************************* *************************************************************//
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
